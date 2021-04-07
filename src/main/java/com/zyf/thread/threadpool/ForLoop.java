@@ -12,7 +12,7 @@ public class ForLoop {
 
         @Override
         public void run() {
-            System.out.println("执行了任务");
+            System.out.println(Thread.currentThread().getName()+"执行了任务");
         }
     }
 }
